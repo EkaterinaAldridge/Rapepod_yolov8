@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d1fa293e-a817-48b5-abec-2d02103423c1" name="3090-pytorch">
+        <fileTransfer accessType="SFTP" host="192.168.78.145" port="6618" sshConfigId="14827546-5ec0-477d-bff5-b11100bd17ad" sshConfig="lxx_pytorch">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b21711b3-b7ea-44c4-80fc-5c594b071905" name="lxx_pytorch (project level)">
+        <fileTransfer accessType="SFTP" host="192.168.78.145" port="6618" sshConfigId="14827546-5ec0-477d-bff5-b11100bd17ad" sshConfig="lxx_pytorch">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
